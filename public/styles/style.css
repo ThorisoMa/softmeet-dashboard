@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sidebar-container {
+  width: 21.5%;
+  height: 100vh;
+  opacity: 0.98px;
+  background: linear-gradient(
+    90deg,
+    #284b6b 19%,
+    #507394 54.5%,
+    #6892b8 73.5%,
+    #89b2e1 93.5%
+  );
+  box-shadow: 5px 0px 4px 1px rgba(123, 127, 132, 0.35);
+}
+
+.sidebar-container img {
+  width: 124px;
+  height: 34.41px;
+  position: relative;
+  top: 65px;
+  left: 86px;
+}
+
+.sidebar-container img:hover {
+  cursor: pointer;
+}
+
+.sidebar-container h2 {
+  width: 240px;
+  height: 27px;
+  position: relative;
+  top: 100px;
+  left: 24px;
+  font-family: Arial;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 27.6px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+  border: 2px solid #fff;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+
+.charts-links {
+  position: relative;
+  top: 7rem;
+}
+
+.inlink {
+  padding: 5% 0;
+}
+
+.inlink:hover {
+  background-color: #d6d6d6;
+}
+
+.LogOut-Button {
+  height: 50px;
+  position: relative;
+  top: 1.5rem;
+}
+
+.LogOut-Button:hover {
+  background-color: #d6d6d6;
+}
+
+.LogOut-Button img {
+  position: relative;
+  margin-left: 3rem;
+  margin-top: 2px;
+}
+
+.LogOut-Button img:hover {
+  cursor: unset;
+}
+
+.LogOut-Button button {
+  width: 80px;
+  position: relative;
+  bottom: 16px;
+  left: 7rem;
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  background-color: transparent;
+  border-style: none;
+  cursor: pointer;
+}
+
+.charts-links img {
+  width: 23px;
+  height: 23px;
+  position: relative;
+  top: 9px;
+  left: 35px;
+}
+
+.charts-links a {
+  width: 99px;
+  height: 21px;
+  position: relative;
+  top: 3px;
+  left: 45px;
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+  text-align: left;
+  color: #fff;
+  text-decoration: none;
+}
+
+.Main {
+  width: 78%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 18.7rem;
+}
+
+.header-container {
+  width: 100%;
+  height: 12vh;
+  border: 1px solid rgba(152, 211, 215, 1);
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.header-name {
+  width: fit-content;
+  height: fit-content;
+  background-color: #89b2e1;
+}
+
+.search-bar {
+  width: fit-content;
+  position: relative;
+  left: 32rem;
+  top: 25px;
+  padding: 2px;
+}
+
+.search-bar input {
+  width: 320px;
+  height: 30px;
+  gap: 12px;
+  border-radius: 8px;
+  border: 1px solid rgba(224, 224, 224, 1);
+}
+
+::placeholder {
+  padding-left: 3rem;
+}
+
+.search-bar img {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: 5px;
+  right: 10%;
+}
+
+.share-btn {
+  width: fit-content;
+  position: relative;
+  left: 55rem;
+  bottom: 7px;
+}
+
+.share-btn button {
+  width: 77px;
+  height: 30px;
+  color: #fff;
+  border-radius: 8px;
+  background-color: rgb(10, 10, 10);
+  cursor: pointer;
+}
+
+.share-btn button:hover {
+  background-color: #4a5b6e;
+  transition-duration: 1s;
+}
+
+.profile {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  left: 62rem;
+  bottom: 48px;
+}
+
+.profile button {
+  width: 50px;
+  height: 50px;
+  border-style: none;
+  background-color: transparent;
+  border-radius: 35px;
+  padding: 1px;
+  cursor: pointer;
+}
+
+.profile button:hover {
+  background-color: rgb(9, 27, 27);
+  transition-duration: 1s;
+}

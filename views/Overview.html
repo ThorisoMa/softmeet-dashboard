@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../public/styles/style.css" />
+    <link rel="stylesheet" href="../public/styles/Charts-Styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css"
+    />
+    <title>Softmeet Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-gauge/dist/chartjs-gauge.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+  </head>
+
+  <body>
+    <div class="sidebar-container">
+      <a href="Overview.html"><img src="../public/images/logo2.png" alt="Softmeet Logo" /></a>
+      <h2>Dashboard</h2>
+      <nav class="charts-links">
+        <div class="inlink">
+          <img src="../public/images/menu 1.png" alt="Overview" /><a href="Overview.html"
+            >Overview</a
+          >
+        </div>
+        <div class="inlink">
+          <img
+            src="../public/images/customer-segmentation 1.png"
+            alt="Demographics"
+          /><a href="Demographics.html">Demographics</a>
+        </div>
+        <div class="inlink">
+          <img
+            src="../public/images/hand 1.png"
+            alt="Employment & Financial Status"
+          /><a href="Employment_&_Financial_Status.html"
+            >Employment & Financial Status</a
+          >
+        </div>
+        <div class="inlink">
+          <img src="../public/images/connect 1.png" alt="Data & Connectivity" /><a
+            href="Data_&_Connectivity.html"
+            >Data & Connectivity</a
+          >
+        </div>
+        <div class="inlink">
+          <img src="../public/images/booking 1.png" alt="App Usage & Preferences" /><a
+            href="App_Usage_&_Preference.html"
+            >App Usage & Preferences</a
+          >
+        </div>
+        <div class="LogOut-Button">
+          <img src="../public/images/log-out 1.png" alt="Log Out" />
+          <form action="/logout?_method=DELETE" method="post">
+            <button type="submit">Log Out</button>
+          </form>
+        </div>
+      </nav>
+    </div>
+
+    <div class="Main">
+      <div class="header-container">
+        <div class="search-bar">
+          <input
+            type="search"
+            name="search"
+            id="search_btn"
+            placeholder="Search by Category..."
+          />
+          <img src="../public/images/search.png" alt="Search" />
+        </div>
+        <div class="share-btn">
+          <button>Share</button>
+        </div>
+        <div class="profile">
+          <a href="Account.html"
+            ><img src="../public/images/Woman.png" alt="User Profile"
+          /></a>
+        </div>
+      </div>
+
+      <div class="Overview-Charts">
+        <div class="piechart">
+          <h2>Total Responses 2500</h2>
+          <canvas id="myPieChart"></canvas>
+        </div>
+        <div class="gaugechart">
+          <h2>80% Response Rate</h2>
+          <canvas id="myGaugeChart"></canvas>
+        </div>
+        <div class="areachart">
+          <h2>Total responses per month(in %) 2024</h2>
+          <canvas id="myAreaChart" style="width: 800"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <script src="../public/JSFiles/overview-charts.js"></script>
+  </body>
+</html>

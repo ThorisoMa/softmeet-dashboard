@@ -1,0 +1,344 @@
+.Overview-Charts,
+.Demo-Charts,
+.Employ-Charts,
+.Data-Charts,
+.AppUsage-Charts {
+  width: 100%;
+  max-height: 88%;
+}
+
+.piechart {
+  width: 200px;
+  height: 230px;
+  border: 1px solid rgba(152, 211, 215, 1);
+  position: relative;
+  left: 2rem;
+  top: 2rem;
+}
+
+.piechart h2 {
+  text-align: center;
+  font-size: larger;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgba(3, 181, 220, 1);
+}
+
+.gaugechart {
+  width: 250px;
+  height: 230px;
+  border: 1px solid rgba(152, 211, 215, 1);
+  position: relative;
+  left: 18rem;
+  padding-left: 10px;
+  padding-right: 10px;
+  bottom: 12.4rem;
+  padding-bottom: 2rem;
+}
+
+.areachart {
+  width: 50%;
+  height: 300px;
+  border: 1px solid rgba(152, 211, 215, 1);
+  position: relative;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-right: 10px;
+  display: table;
+  justify-content: stretch;
+  left: 16rem;
+  bottom: 10.5rem;
+}
+
+.areachart h2 {
+  text-align: center;
+  font-size: larger;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgba(3, 181, 220, 1);
+}
+
+.gaugechart h2 {
+  text-align: center;
+  font-size: larger;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgba(3, 181, 220, 1);
+}
+
+.Gender_Chart {
+  width: 300px;
+  height: 280px;
+  border: 1px solid rgba(152, 211, 215, 1);
+  position: relative;
+  left: 2rem;
+  top: 2rem;
+  padding-left: 15px;
+  padding-bottom: 2rem;
+}
+
+.Gender_Chart h2 {
+  text-align: center;
+  font-size: larger;
+  position: relative;
+  top: 5%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgba(40, 75, 107, 1);
+}
+
+.Province_Chart {
+  width: 450px;
+  height: 250px;
+  border: 1px solid rgba(152, 211, 215, 1);
+  position: relative;
+  left: 2rem;
+  top: 3.5rem;
+}
+
+.Province_Chart h2 {
+  text-align: center;
+  font-size: larger;
+  position: relative;
+  top: 5%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgba(40, 75, 107, 1);
+}
+
+.Age_Chart {
+  width: 500px;
+  height: 280px;
+  border: 1px solid rgba(152, 211, 215, 1);
+  position: relative;
+  left: 25rem;
+  bottom: 31rem;
+}
+
+.Age_Chart h2 {
+  text-align: center;
+  font-size: larger;
+  position: relative;
+  top: 5%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgba(40, 75, 107, 1);
+}
+
+.Languages_Chart {
+  width: 450px;
+  height: 250px;
+  border: 1px solid rgba(152, 211, 215, 1);
+  position: relative;
+  left: 35rem;
+  bottom: 29.5rem;
+}
+
+.Languages_Chart h2 {
+  text-align: center;
+  font-size: larger;
+  position: relative;
+  top: 5%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgba(40, 75, 107, 1);
+}
+
+.AgeBar_Chart {
+  width: 350px;
+  height: 250px;
+  border: 1px solid rgba(152, 211, 215, 1);
+  position: relative;
+  left: 2rem;
+  top: 2rem;
+}
+
+.AgeBar_Chart h2 {
+  text-align: center;
+  font-size: larger;
+  position: relative;
+  top: 5%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgba(40, 75, 107, 1);
+}
+
+.Employment_Chart {
+  width: 300px;
+  height: 250px;
+  border: 1px solid rgba(152, 211, 215, 1);
+  position: relative;
+  left: 26rem;
+  bottom: 13.6rem;
+  padding-left: 4px;
+}
+
+.Employment_Chart h2 {
+  text-align: center;
+  font-size: larger;
+  position: relative;
+  top: 5%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgba(40, 75, 107, 1);
+}
+
+.Network_Chart {
+  width: 300px;
+  height: 250px;
+  border: 1px solid rgba(152, 211, 215, 1);
+  position: relative;
+  left: 46.5rem;
+  bottom: 44.9rem;
+  padding-left: 10px;
+}
+
+.Network_Chart h2 {
+  text-align: center;
+  font-size: larger;
+  position: relative;
+  top: 5%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgba(40, 75, 107, 1);
+}
+
+.WifiUsage_Chart {
+  width: 430px;
+  height: 250px;
+  border: 1px solid rgba(152, 211, 215, 1);
+  position: relative;
+  left: 2rem;
+  bottom: 11rem;
+  padding-left: 4px;
+}
+
+.WifiUsage_Chart h2 {
+  text-align: center;
+  font-size: larger;
+  position: relative;
+  top: 5%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgba(40, 75, 107, 1);
+}
+
+.DataPurchase_Chart {
+  width: 450px;
+  height: 250px;
+  border: 1px solid rgba(152, 211, 215, 1);
+  position: relative;
+  left: 35rem;
+  bottom: 42.2rem;
+  padding-left: 4px;
+}
+
+.DataPurchase_Chart h2 {
+  text-align: center;
+  font-size: larger;
+  position: relative;
+  top: 1%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgba(40, 75, 107, 1);
+}
+
+.NotHavingData_Chart {
+  width: 450px;
+  height: 250px;
+  border: 1px solid rgba(152, 211, 215, 1);
+  position: relative;
+  left: 2rem;
+  top: 2rem;
+}
+
+.NotHavingData_Chart h2 {
+  text-align: center;
+  font-size: larger;
+  position: relative;
+  top: 1%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgba(40, 75, 107, 1);
+}
+
+.DataPurchaseTime_Chart {
+  width: 450px;
+  height: 250px;
+  border: 1px solid rgba(152, 211, 215, 1);
+  position: relative;
+  left: 35rem;
+  bottom: 13.6rem;
+  padding-left: 4px;
+}
+
+.DataPurchaseTime_Chart h2 {
+  text-align: center;
+  font-size: larger;
+  position: relative;
+  top: 1%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgba(40, 75, 107, 1);
+}
+
+.MissedActivities_Chart {
+  width: 350px;
+  height: 250px;
+  border: 1px solid rgba(152, 211, 215, 1);
+  position: relative;
+  left: 22rem;
+  bottom: 11rem;
+  padding-left: 20px;
+}
+
+.MissedActivities_Chart h2 {
+  text-align: center;
+  font-size: larger;
+  position: relative;
+  top: 1%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgba(40, 75, 107, 1);
+}
+
+.AppInstallFreq_Chart {
+  width: 450px;
+  height: 250px;
+  border: 1px solid rgba(152, 211, 215, 1);
+  position: relative;
+  left: 2rem;
+  top: 2rem;
+}
+
+.AppInstallFreq_Chart h2 {
+  text-align: center;
+  font-size: larger;
+  position: relative;
+  top: 3%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgba(40, 75, 107, 1);
+}
+
+.InstalledApps_Chart {
+  width: 420px;
+  height: 400px;
+  border: 1px solid rgba(152, 211, 215, 1);
+  position: relative;
+  left: 35rem;
+  bottom: 13.5rem;
+  padding-left: 10px;
+}
+
+.InstalledApps_Chart h2 {
+  text-align: center;
+  font-size: larger;
+  position: relative;
+  top: 3%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgba(40, 75, 107, 1);
+}
+
+.ImportantFactors_Chart {
+  width: 450px;
+  height: 280px;
+  border: 1px solid rgba(152, 211, 215, 1);
+  position: relative;
+  left: 2rem;
+  bottom: 22rem;
+  padding-top: 20px;
+}
+
+.ImportantFactors_Chart h2 {
+  text-align: center;
+  font-size: larger;
+  position: relative;
+  top: -3%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgba(40, 75, 107, 1);
+}

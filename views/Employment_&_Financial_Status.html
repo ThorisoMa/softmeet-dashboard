@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../public/styles/style.css" />
+    <link rel="stylesheet" href="../public/styles/Charts-Styles.css" />
+    <title>Softmeet Dashboard</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+
+  <body>
+    <div class="sidebar-container">
+      <a href="Overview.html"><img src="../public/images/logo2.png" alt="Softmeet Logo" /></a>
+      <h2>Dashboard</h2>
+      <nav class="charts-links">
+        <div class="inlink">
+          <img src="../public/images/menu 1.png" alt="Overview" /><a href="Overview.html"
+            >Overview</a
+          >
+        </div>
+        <div class="inlink">
+          <img
+            src="../public/images/customer-segmentation 1.png"
+            alt="Demographics"
+          /><a href="Demographics.html">Demographics</a>
+        </div>
+        <div class="inlink">
+          <img
+            src="../public/images/hand 1.png"
+            alt="Employment & Financial Status"
+          /><a href="Employment_&_Financial_Status.html"
+            >Employment & Financial Status</a
+          >
+        </div>
+        <div class="inlink">
+          <img src="../public/images/connect 1.png" alt="Data & Connectivity" /><a
+            href="Data_&_Connectivity.html"
+            >Data & Connectivity</a
+          >
+        </div>
+        <div class="inlink">
+          <img src="../public/images/booking 1.png" alt="App Usage & Preferences" /><a
+            href="App_Usage_&_Preference.html"
+            >App Usage & Preferences</a
+          >
+        </div>
+        <div class="LogOut-Button">
+          <img src="../public/images/log-out 1.png" alt="Log Out" />
+          <form action="/logout?_method=DELETE" method="post">
+            <button type="submit">Log Out</button>
+          </form>
+        </div>
+      </nav>
+    </div>
+
+    <div class="Main">
+      <div class="header-container">
+        <div class="search-bar">
+          <input
+            type="search"
+            name="search"
+            id="search_btn"
+            placeholder="Search by Category..."
+          />
+          <img src="../public/images/search.png" alt="Search" />
+        </div>
+        <div class="share-btn">
+          <button>Share</button>
+        </div>
+        <div class="profile">
+          <a href="Account.html"
+            ><img src="../public/images/Woman.png" alt="User Profile"
+          /></a>
+        </div>
+      </div>
+
+      <div class="Employ-Charts">
+        <div class="AgeBar_Chart">
+          <h2>Age</h2>
+          <canvas id="ageBarChart"></canvas>
+        </div>
+
+        <div class="Employment_Chart">
+          <h2>Employment Status</h2>
+          <canvas id="employmentPieChart"></canvas>
+        </div>
+
+        <div class="WifiUsage_Chart">
+          <h2>Wifi Usage</h2>
+          <canvas id="wifiUsageChart"></canvas>
+        </div>
+
+        <div class="Network_Chart">
+          <h2>Cell Phone Network Used</h2>
+          <canvas id="networkDoughnutChart"></canvas>
+        </div>
+
+        <div class="DataPurchase_Chart">
+          <h2>Data Purchase Patterns</h2>
+          <canvas id="dataPurchasePatternsChart"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <script src="../public/JSFiles/Employ-Charts.js"></script>
+  </body>
+</html>

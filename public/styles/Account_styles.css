@@ -1,0 +1,53 @@
+.sidebar-container h3 {
+  width: 240px;
+  height: 27px;
+  position: relative;
+  top: 100px;
+  left: 24px;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27.6px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+  border: 2px solid #fff;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+
+.dashboard-btn {
+  width: 180px;
+  height: 30px;
+  position: relative;
+  top: 1.5rem;
+  left: 50rem;
+}
+
+.Main img{
+    position: relative;
+    left: 48%;
+    top: 1%;
+}
+
+.dashboard-btn a {
+  width: 180px;
+  height: 30px;
+  background-color: black;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.form-container{
+    width: 80%;
+    height: 100px;
+    position: relative;
+    display: grid;
+    justify-content: space-around;
+    top: 1%;
+    left: 7rem;
+    padding: 8px;
+    background-color: rgb(216, 218, 218);
+}

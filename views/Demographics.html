@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../public/styles/style.css" />
+    <link rel="stylesheet" href="../public/styles/Charts-Styles.css" />
+    <title>Softmeet Dashboard</title>
+  </head>
+
+  <body>
+    <div class="sidebar-container">
+      <a href="Overview.html"
+        ><img src="../public/images/logo2.png" alt="Softmeet Logo"
+      /></a>
+      <h2>Dashboard</h2>
+      <nav class="charts-links">
+        <div class="inlink">
+          <img src="../public/images/menu 1.png" alt="Overview" /><a
+            href="Overview.html"
+            >Overview</a
+          >
+        </div>
+        <div class="inlink">
+          <img
+            src="../public/images/customer-segmentation 1.png"
+            alt="Demographics"
+          /><a href="Demographics.html">Demographics</a>
+        </div>
+        <div class="inlink">
+          <img
+            src="../public/images/hand 1.png"
+            alt="Employment & Financial Status"
+          /><a href="Employment_&_Financial_Status.html"
+            >Employment & Financial Status</a
+          >
+        </div>
+        <div class="inlink">
+          <img
+            src="../public/images/connect 1.png"
+            alt="Data & Connectivity"
+          /><a href="Data_&_Connectivity.html">Data & Connectivity</a>
+        </div>
+        <div class="inlink">
+          <img
+            src="../public/images/booking 1.png"
+            alt="App Usage & Preferences"
+          /><a href="App_Usage_&_Preference.html">App Usage & Preferences</a>
+        </div>
+        <div class="LogOut-Button">
+          <img src="../public/images/log-out 1.png" alt="Log Out" />
+          <form action="/logout?_method=DELETE" method="post">
+            <button type="submit">Log Out</button>
+          </form>
+        </div>
+      </nav>
+    </div>
+
+    <div class="Main">
+      <div class="header-container">
+        <div class="search-bar">
+          <input
+            type="search"
+            name="search"
+            id="search_btn"
+            placeholder="Search by Category..."
+          />
+          <img src="../public/images/search.png" alt="Search" />
+        </div>
+        <div class="share-btn">
+          <button>Share</button>
+        </div>
+        <div class="profile">
+          <a href="Account.html"
+            ><img src="../public/images/Woman.png" alt="User Profile"
+          /></a>
+        </div>
+      </div>
+
+      <!-- Doughnut Chart Container -->
+      <div class="Demo-Charts">
+        <div class="Gender_Chart">
+          <h2>Gender</h2>
+          <canvas id="genderChart"></canvas>
+        </div>
+
+        <!-- Double Bar Graph Container -->
+        <div class="Province_Chart">
+          <h2>Provinces</h2>
+          <canvas id="provinceChart"></canvas>
+        </div>
+
+        <!-- Age Range Bar Graph Container -->
+        <div class="Age_Chart">
+          <h2>Age</h2>
+          <canvas id="ageChart"></canvas>
+        </div>
+
+        <!-- Sidebar Graph for Languages -->
+        <div class="Languages_Chart">
+          <h2>Languages</h2>
+          <canvas id="languagesChart"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script src="../public/JSFiles/Demo-Charts.js"></script>
+  </body>
+</html>

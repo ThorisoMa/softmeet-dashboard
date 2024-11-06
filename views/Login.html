@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../public/styles/login_styles.css" />
+    <title>Login</title>
+  </head>
+
+  <body>
+    <div class="container" id="signIn">
+      <img class="form-title" src="../public/images/logo1.png" alt="logo" />
+      <h2>Log in</h2>
+      <form method="post">
+        <div
+          id="signInMessage"
+          class="alert-danger"
+          style="display: none"
+        ></div>
+
+        <div class="input-group">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Please enter email"
+          />
+        </div>
+        <div class="input-group">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Plase enter password"
+          />
+        </div>
+        <div class="remember-me">
+          <label
+            ><input type="checkbox" name="RememberMe" id="RememberMe" />Remember
+            Me</label
+          >
+        </div>
+        <div class="recover">
+          <a href="Reset.html" id="ResetLink">Forgot your password</a>
+        </div>
+        <button type="submit" class="btn" id="LoginBtn">Log in</button>
+
+        <div class="links">
+          <p>Don't have an account?</p>
+          <a href="Register.html" id="signUpButton">Sign Up</a>
+        </div>
+      </form>
+      <footer>Copyright © 2024 Softmeet, All rights reserved.</footer>
+    </div>
+    <script type="module" src="firebaseauth.js"></script>
+  </body>
+</html>

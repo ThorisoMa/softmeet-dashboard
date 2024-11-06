@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../public/styles/login_styles.css" />
+    <title>Register</title>
+    <script type="module" src="firebaseauth.js" defer></script>
+  </head>
+
+  <body>
+    <div class="container" id="signUp">
+      <img src="../public/images/logo1.png" alt="logo" />
+      <h2>Register</h2>
+      <form method="post">
+        <div id="signUpMessage" class="alert-danger" style="display: none;"></div>
+
+        <div class="input-group">
+          <label for="Name">Full Name</label>
+          <input
+            type="text"
+            id="Fname"
+            placeholder="Please enter Name"
+            required
+          />
+        </div>
+        <div class="input-group">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="Please enter Email"
+            required
+          />
+        </div>
+        <div class="input-group">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            placeholder="Please enter Password"
+            required
+          />
+        </div>
+        <button type="submit" class="btn" id="registerBtn">Register</button>
+
+        <div class="links">
+          <p>Already have an account?</p>
+          <a href="Login.html" id="signInButton">Sign In</a>
+        </div>
+      </form>
+      <footer>Copyright © 2024 Softmeet, All rights reserved.</footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../public/styles/login_styles.css" />
+    <title>Reset Password</title>
+  </head>
+  <body>
+    <div class="Reset_container" id="Reset">
+      <h2>Reset your password!</h2>
+      <form method="post" action="/reset-password">
+        <div class="input-group">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Please enter email"
+          />
+        </div>
+        <div class="ReturnLink">
+          <a href="Login.html">Back to log in page</a>
+        </div>
+        <button type="submit" id="resetButton">Reset password</button>
+      </form>
+    </div>
+  </body>
+</html>
